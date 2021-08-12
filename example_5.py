@@ -24,3 +24,4 @@ while digit != 0:
             my_list.insert(el + 1, digit)
     print(f"текущий список - {my_list}")
     digit = int(input("Введите число "))
+    
