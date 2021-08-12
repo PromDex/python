@@ -8,3 +8,4 @@ example_list = ['August', 100, 'Price', 'Car', 5.55]
 
 for element in example_list:
     print(element, type(element))
+    
