@@ -15,3 +15,4 @@ for el in range(in_data.count(' ') + 1):
     else:
         print(f' {num} {sub_data [el] [0:10]}')
         num += 1
+        
