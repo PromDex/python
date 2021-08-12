@@ -5,11 +5,9 @@
 
 val_list = input('Ведите любое количество элементов для списка, через пробел:').split()
 print(val_list)
-
 l = val_list
 i = 0
 for i in range(0, len(l), 2):
-    l[i], l[i+1] = l[i+1], l[i]
+    l[i], l[i + 1] = l[i + 1], l[i]
     i += 2
-
 print(l)
